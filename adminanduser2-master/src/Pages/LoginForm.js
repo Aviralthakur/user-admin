@@ -78,7 +78,7 @@ const LoginForm = ({history}) => {
                     //    window.location.href="admin/DisplayUser"
                     //  })
                     localStorage.setItem('admin','res.data.user')
-                    window.location.href="admin/DisplayUser"
+                    window.location.href="admin/HomepageStudent"
 
                 }
                           

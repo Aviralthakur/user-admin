@@ -83,7 +83,7 @@ function App() {
           
 < Route path="/"  element={<PrivateRoute/>}>
 
-          < Route path="user/HomepageStudent"  element={<HomePage/>}/>
+          < Route path="user/HomepageStudent"  element={<StudentInstitute/>}/>
           
 
           <Route path="user/ViewCourse" element={<Course/>}/>
@@ -96,6 +96,7 @@ function App() {
          
           
           < Route path="/"  element={<AdminPrivateRoute/>}>
+          < Route path="admin/HomepageStudent"  element={<HomePage/>}/>
 
           < Route path="admin/DisplayUser"  element={<DisplayUser/>} /> 
            
